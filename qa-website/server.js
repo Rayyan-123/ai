@@ -11,7 +11,7 @@ const PORT = 3000;
 
 // Middleware
 app.use(bodyParser.json());
-app.use(express.static("public"));
+app.use(express.static("qa-website/public"));
 
 // Mock database (replace with a real database if needed)
 const databasePath = "./database.json";
